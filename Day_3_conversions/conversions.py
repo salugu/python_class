@@ -13,7 +13,9 @@ print(hex(b))
 # int data type to different datatypes
 
 print(int(12.5))
-print(int(12+))
-print(int(12+5j))
+# print(int(12+5j))
 print(int(True))
 print(int("ds"))
+
+print(float(2))
+# print(float(12+5j))
