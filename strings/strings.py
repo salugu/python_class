@@ -1,5 +1,8 @@
 
 # replace
+from itertools import count
+
+
 s1="a-b-c-d"
 print(s1.replace("-", "$"))
 # join
@@ -42,6 +45,30 @@ print(s13.capitalize())
 # swapcase
 s14="SaiChArAn"
 print(s14.swapcase())
-# csefold
+# csefold by default lowercase
 s15="SaiChArAn"
 print(s15.casefold())
+
+# concatenate
+s16="Sai"
+s17 ="Charan"
+print(s16+s17)
+
+# length
+s19="saicharan"
+print(len(s19))
+
+# count
+s20="saicharan sai kumar sai charan"
+print(s20.count("sai"))
+
+# index
+s21="saicharan"
+print(s21.index("n"))
+# print(s21.index("z")) # if not found throws error
+
+# find
+s22="saicharan"
+print(s22.find("n"))
+print(s22.find("z")) # if not found returns -1
+
