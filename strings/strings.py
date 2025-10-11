@@ -3,6 +3,7 @@
 from itertools import count
 
 
+
 s1="a-b-c-d"
 print(s1.replace("-", "$"))
 # join

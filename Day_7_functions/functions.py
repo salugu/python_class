@@ -38,4 +38,3 @@ def findfactor(num):
         if num%i==0:
             print(i,'is the factor of ',num)
 findfactor(9)
-
