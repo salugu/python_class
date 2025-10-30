@@ -10,3 +10,4 @@ for i in range(1,n+1):
         print(i, 'is a prime number')
     else:
         print(i,'not a prime number ')
+
